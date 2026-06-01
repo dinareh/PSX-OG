@@ -8,8 +8,8 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 hookfunction(debug.getupvalue(Network.Invoke, 1), function(...) return true end)
 hookfunction(debug.getupvalue(Network.Fired, 1), function(...) return true end)
 
-getgenv().autoegg = true
-while getgenv().autoegg do
+getgenv().autoegg1 = true
+while getgenv().autoegg1 do
 Network.Invoke("Buy Egg", "Cursed Egg", true)
 Network.Invoke("Buy Egg", "Cursed Egg", false)
 task.wait()
