@@ -1,4 +1,4 @@
-
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KATERGaming/Roblox/main/KaterHub.Lua"))()
 --system
 local Network = require(game:GetService("ReplicatedStorage").Framework.Modules.Client["2 - Network"])
 local localPlayer = game:GetService("Players").LocalPlayer
