@@ -12,5 +12,5 @@ getgenv().autoegg1 = true
 while getgenv().autoegg1 do
 Network.Invoke("Buy Egg", "Cursed Egg", true)
 Network.Invoke("Buy Egg", "Cursed Egg", false)
-task.wait()
+task.wait(0.1)
 end
